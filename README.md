@@ -13,6 +13,7 @@ The dataset contains transactions made by credit cards in September 2013 by Euro
 7.	Choose the metrics for the model evaluation
 8.	Model Selection, Training, Predicting and Assessment
 The dataset uses Logistic Regression, Decision Tree, and Random Forest Algorithms. All the three algorithms are performed for imbalanced data, under sampled data and oversampled data. 
+
 **Conclusion:**
 From the above examination of an imbalanced dataset, I got to know that for under sampling technique logistic regression with 93.76% is good fit on the predicted data while for oversampling technique Random Forest with 99.99% classifier is the good fit. Comparing both the technique, employing oversampling technique using SMOTE, particularly with the Random Forest classifier, yielded a robust model fit with accuracy score of 99.99%. 
 The oversampling method addresses the class imbalance by duplicating instances of the minority class, enhancing the classifier's ability to discern patterns within the underrepresented class and ultimately improving predictive performance. 
